@@ -1,102 +1,180 @@
-# 💬 Wee-Chat
+<h1 align="center">
+💬 Real-Time Collaboration Platform
+</h1>
 
-A real-time chat app with AI chatbot, meme feed, and user-to-user messaging.
+<p align="center">
+Modern collaboration platform combining real-time messaging, AI-powered conversations, secure authentication, and collaborative social features.
+</p>
 
-🌐 **Live:** [wee-chat.vercel.app](https://wee-chat.vercel.app)
+<p align="center">
 
----
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-20-339933?logo=node.js)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-Real--Time-black)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb)
+![MIT](https://img.shields.io/badge/License-MIT-blue)
 
-## Features
-
-- 🔐 Secure authentication with Clerk
-- ⚡ Real-time messaging via Socket.IO
-- 🤖 AI chatbot powered by DeepSeek
-- 😂 Meme feed with likes, comments & sharing
-- 👤 User profiles with bio and profile picture
-- 🔍 Search users and start chatting
-
----
-
-## Tech Stack
-
-**Frontend:** React, Vite, React Router, Socket.IO Client, Clerk, Axios
-
-**Backend:** Node.js, Express, MongoDB, Socket.IO, Multer, Zod
+</p>
 
 ---
 
-## Getting Started
+## ✨ What is it?
 
-### 1. Clone the repo
+Real-Time Collaboration Platform is a full-stack communication solution built for modern teams.
+
+The platform combines instant messaging, AI-powered assistance, secure authentication, and collaborative interactions into a single web application. It demonstrates scalable real-time communication using WebSockets together with modern React and Node.js development practices.
+
+---
+
+# 📸 Highlights
+
+- 💬 Real-time messaging
+- 🤖 AI Assistant
+- 👥 User profiles
+- 🔒 Secure authentication
+- ⚡ WebSocket communication
+- 📱 Responsive interface
+- 😂 Social feed
+- 🔍 User search
+
+---
+
+# 🧰 Tech Stack
+
+| Frontend | Backend | Infrastructure |
+|-----------|----------|---------------|
+| React | Node.js | MongoDB |
+| Vite | Express | Socket.IO |
+| React Router | REST API | Clerk |
+| Axios | Zod | AI API |
+
+---
+
+# ⚙️ Running the project
+
+Clone
 
 ```bash
-git clone https://github.com/khushik17/wee-Chat.git
-cd wee-Chat
+git clone https://github.com/iglicoding/real-time-collaboration-platform.git
 ```
 
-### 2. Setup Backend
+Backend
 
 ```bash
 cd backend
+
 npm install
-```
 
-Create a `.env` file:
-
-```env
-MONGO_URL=your_mongodb_url
-CLERK_SECRET_KEY=your_clerk_secret
-FRONTEND_URL=http://localhost:5173
-PORT=3000
-DEEPSEEK_API_KEY=your_deepseek_key
-```
-
-```bash
 npm start
 ```
 
-### 3. Setup Frontend
+Frontend
 
 ```bash
-cd frontend/chatwebsite
+cd frontend
+
 npm install
-```
 
-Create a `.env` file:
-
-```env
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-VITE_API_URL=http://localhost:3000
-```
-
-```bash
 npm run dev
 ```
 
 ---
 
-## Pages
+# 📁 Folder Structure
 
-| Route | Page |
-|---|---|
-| `/` | Landing |
-| `/sign-in` | Login |
-| `/sign-up` | Sign Up |
-| `/chat` | Chat Hub |
-| `/chat/users` | User Chat |
-| `/chat/bot` | AI Chatbot |
-| `/profile` | Profile |
-| `/memeFeed` | Meme Feed |
+```
+backend/
+    controllers/
+    routes/
+    middleware/
+    socket/
+    models/
 
----
-
-## Author
-
-**Khushi Kabra**
-
-- GitHub: [@khushik17](https://github.com/khushik17)
-- LinkedIn: [Khushi Kabra](https://www.linkedin.com/in/khushi-kabra-368b8b2b3/)
+frontend/
+    components/
+    pages/
+    hooks/
+    context/
+```
 
 ---
 
-Made with ❤️ by Khushi Kabra
+# 🚀 Main Modules
+
+## Authentication
+
+Secure user authentication powered by Clerk.
+
+---
+
+## Messaging
+
+Low-latency messaging implemented with Socket.IO.
+
+---
+
+## AI Assistant
+
+Integrated conversational AI capable of assisting users during chats.
+
+---
+
+## Community Feed
+
+Interactive social feed supporting posts, comments, likes, and sharing.
+
+---
+
+## User Profiles
+
+Personal profiles with avatars, biography, and searchable users.
+
+---
+
+# 📈 Future Roadmap
+
+- Voice calls
+
+- Video meetings
+
+- File sharing
+
+- Message reactions
+
+- Workspace channels
+
+- Push notifications
+
+- End-to-end encryption
+
+- AI meeting summaries
+
+---
+
+# 👨‍💻 Maintainer
+
+### Igli Boci
+
+Senior Full-Stack Engineer specializing in scalable web applications, AI-powered solutions, cloud-native architectures, and enterprise software.
+
+**GitHub**
+
+https://github.com/iglicoding
+
+**LinkedIn**
+
+https://linkedin.com/in/iglicoding
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star.
+
+Contributions, suggestions, and feedback are always welcome.
+
+---
+
+## 📄 License
+
+Released under the MIT License.
